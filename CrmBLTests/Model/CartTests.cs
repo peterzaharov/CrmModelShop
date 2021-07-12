@@ -18,7 +18,7 @@ namespace CrmBL.Model.Tests
             Customer customer = new Customer()
             {
                 CustomerId = 1,
-                Name = "testUser"
+                Name = "testCustomer"
             };
             Product product1 = new Product()
             {
@@ -34,7 +34,7 @@ namespace CrmBL.Model.Tests
                 Price = 200,
                 Count = 20
             };
-            Cart cart = new Cart(customer);
+            var cart = new Cart(customer);
             
             var expectedResult = new List<Product>()
             {
@@ -49,7 +49,7 @@ namespace CrmBL.Model.Tests
             var cartResult = cart.GetAll();
 
             //assert
-            Assert.AreEqual(expectedResult.Count, cart.GetAll().Count);
+            Assert.AreEqual(expectedResult.Count, cartResult.Count);
             for (int i = 0; i < expectedResult.Count; i++)
             {
                 Assert.AreEqual(expectedResult[i], cartResult[i]);

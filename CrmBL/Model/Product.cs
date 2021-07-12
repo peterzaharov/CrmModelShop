@@ -20,7 +20,7 @@ namespace CrmBL.Model
         public override bool Equals(object obj)
         {
             if (obj is Product product)
-                return ProductId.Equals(obj);
+                return ProductId.Equals(product.ProductId);
 
             return false;
         }
