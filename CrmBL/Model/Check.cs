@@ -12,6 +12,7 @@ namespace CrmBL.Model
         public virtual Seller Seller { get; set; }
         public DateTime DateOfCreation{ get; set; }
         public virtual ICollection<Sell> Sells { get; set; }
+        public decimal Price { get; set; }
         public override string ToString()
         {
             return $"№{CheckId} от {DateOfCreation.ToString("dd.MM.yy HH:mm:ss")}";
