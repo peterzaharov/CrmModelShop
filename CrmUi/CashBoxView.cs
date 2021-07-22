@@ -37,7 +37,7 @@ namespace CrmUi
             Price.TabIndex = number;
             Price.Maximum = 100000000000000000;
 
-            QueueLenght.Location = new System.Drawing.Point(x + 300, 121);
+            QueueLenght.Location = new System.Drawing.Point(x + 250, y);
             QueueLenght.Maximum = cashDesk.MaxQueueLenght;
             QueueLenght.Name = "progressBar" + number;
             QueueLenght.Size = new System.Drawing.Size(100, 23);
