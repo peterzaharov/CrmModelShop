@@ -50,7 +50,7 @@ namespace CrmUi
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(668, 13);
+            this.numericUpDown1.Location = new System.Drawing.Point(970, 10);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -73,7 +73,7 @@ namespace CrmUi
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(668, 42);
+            this.numericUpDown2.Location = new System.Drawing.Point(970, 38);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -97,7 +97,7 @@ namespace CrmUi
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(528, 15);
+            this.label1.Location = new System.Drawing.Point(830, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 17);
             this.label1.TabIndex = 3;
@@ -106,7 +106,7 @@ namespace CrmUi
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(528, 47);
+            this.label2.Location = new System.Drawing.Point(830, 40);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 17);
             this.label2.TabIndex = 4;
@@ -116,7 +116,7 @@ namespace CrmUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1102, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown2);
